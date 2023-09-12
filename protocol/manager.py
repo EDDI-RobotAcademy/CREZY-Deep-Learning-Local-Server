@@ -204,7 +204,6 @@ def sentiment_analysis(predict_sentence):
 
 
 protocol_manager = ProtocolManager()
-BERTClassifier = BERTClassifier(bertmodel)
 
 protocol_manager.register_custom_ai_command(333, 1, sentiment_analysis)
 # protocol_manager.register_custom_ai_command(555, 3, multi_parameter_test)
